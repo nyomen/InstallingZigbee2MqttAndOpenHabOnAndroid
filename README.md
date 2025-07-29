@@ -8,6 +8,7 @@
 * Zigbee USB dongle (e.g. Sonoff ZBDongle-E)
 * USB OTG cable or USB Hub.... Something to connect the dongle
 * Internet access
+* Another pc to connect via ssh to termux (https://wiki.termux.com/wiki/Remote_Access)
 
 ---
 
@@ -15,7 +16,7 @@
 
 ```bash
 pkg update && pkg upgrade -y
-pkg install python git nodejs termux-services
+pkg install python git nodejs termux-services screen
 pkg install libffi openssl clang make
 pip install --upgrade pip
 npm install -g pnpm yarn
@@ -121,7 +122,7 @@ Frontend is accessible at:
 1. Installs essential Termux packages. Installs Ubuntu via `proot-distro`. Logs into Ubuntu
 
 ```bash
-pkg update -y && pkg install -y proot-distro git python screen && proot-distro install ubuntu && proot-distro login ubuntu
+pkg update -y && pkg install -y proot-distro git python && proot-distro install ubuntu && proot-distro login ubuntu
 ```
 
 2. Install preconditions for OpenHab 5:
