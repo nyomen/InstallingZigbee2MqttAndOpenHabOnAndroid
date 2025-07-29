@@ -8,7 +8,7 @@
 * Zigbee USB dongle (e.g. Sonoff ZBDongle-E)
 * USB OTG cable or USB Hub.... Something to connect the dongle
 * Internet access
-* Another pc to connect via ssh to termux (https://wiki.termux.com/wiki/Remote_Access)
+* A pc to connect via ssh to termux (https://wiki.termux.com/wiki/Remote_Access)
 
 ---
 
