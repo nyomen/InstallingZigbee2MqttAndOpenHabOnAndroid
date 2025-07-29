@@ -6,9 +6,8 @@
 * [Termux (from F-Droid)](https://f-droid.org/en/packages/com.termux/)
 * [TCPUART app](https://play.google.com/store/apps/details?id=com.hardcodedjoy.tcpuart)
 * Zigbee USB dongle (e.g. Sonoff ZBDongle-E)
-* USB OTG cable (if needed)
+* USB OTG cable or USB Hub.... Something to connect the dongle
 * Internet access
-* Device architecture: **aarch64** (required for HA install script)
 
 ---
 
