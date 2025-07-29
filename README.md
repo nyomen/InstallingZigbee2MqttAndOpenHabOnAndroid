@@ -1,6 +1,4 @@
-# InstallingZigbee2MqttAndOpenHabOnAndroid
-A guide how to make an zigbee2mqtt and openhab work with an android phone
-## ✅ Full Guide: Zigbee2MQTT + TCPUART + Home Assistant Core on Android (Termux)
+## ✅ Full Guide: Zigbee2MQTT + TCPUART + OpenHab on Android (Termux)
 
 ### 🔧 Requirements
 
